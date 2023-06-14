@@ -9,61 +9,16 @@ Este projeto é uma aplicação web em Laravel que exibe as dez primeiras notíc
 * Composer
 * Redis
 
-  
-
 ## Configuração do banco de dados
 
 1. Crie um banco de dados vazio no seu servidor MySQL.
-2. Renomeie o arquivo `.env.example`para `.env`.
+2. Renomeie o arquivo `.env.example` para `.env`.
 3. Abra o arquivo `.env` e altere as informações de conexão com o banco de dados de acordo com as configurações do seu servidor MySQL
-```makefile
-APP_NAME="Portal de Noticias"
-APP_ENV=local
-APP_KEY=
-APP_DEBUG=true
-APP_URL=http://localhost
-
-LOG_CHANNEL=stack
-LOG_DEPRECATIONS_CHANNEL=null
-LOG_LEVEL=debug
-
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=
-DB_USERNAME=
-DB_PASSWORD=
-
-BROADCAST_DRIVER=log
-CACHE_DRIVER=redis
-FILESYSTEM_DISK=local
-QUEUE_CONNECTION=sync
-SESSION_DRIVER=file
-SESSION_LIFETIME=120
-
-MEMCACHED_HOST=127.0.0.1
-
-REDIS_HOST=127.0.0.1
-REDIS_PASSWORD=null
-REDIS_PORT=6379
-REDIS_CLIENT=predis
-
-PUSHER_PORT=443
-PUSHER_SCHEME=https
-PUSHER_APP_CLUSTER=mt1
-
-VITE_PUSHER_APP_KEY="${PUSHER_APP_KEY}"
-VITE_PUSHER_HOST="${PUSHER_HOST}"
-VITE_PUSHER_PORT="${PUSHER_PORT}"
-VITE_PUSHER_SCHEME="${PUSHER_SCHEME}"
-VITE_PUSHER_APP_CLUSTER="${PUSHER_APP_CLUSTER}"
-
-```
 
 ## Instalação das dependências
 
-*. Abra o terminal e navegue até a pasta raiz do projeto.
-*.  Execute o comando `composer install` para instalar as dependências do projeto.
+1. Abra o terminal e navegue até a pasta raiz do projeto.
+2. Execute o comando `composer install` para instalar as dependências do projeto.
 
 ## Criação e população do banco de dados
 
